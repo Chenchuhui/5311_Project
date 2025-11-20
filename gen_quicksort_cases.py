@@ -103,14 +103,14 @@ if __name__ == "__main__":
 
     print("Saving arrays to text files ...")
     save_array_txt("arr_random_100000.txt", random_case)
-    save_array_txt("arr_best_100000.txt", best_case)
-    save_array_txt("arr_worst_100000.txt", worst_case)
+    save_array_txt("arr_quicksort_best_100000.txt", best_case)
+    save_array_txt("arr_quicksort_worst_100000.txt", worst_case)
 
     print("Done.")
     print("Files generated:")
     print("  - arr_random_100000.txt  (random data)")
-    print("  - arr_best_100000.txt    (best-like case for this quicksort)")
-    print("  - arr_worst_100000.txt   (sorted ascending: worst case for this quicksort)")
+    print("  - arr_quicksort_best_100000.txt    (best-like case for this quicksort)")
+    print("  - arr_quicksort_worst_100000.txt   (sorted ascending: worst case for this quicksort)")
 
     # --- (Optional) quick test on small n to check correctness ---
     # You can comment this block out if you don't need it.
